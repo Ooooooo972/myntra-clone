@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    box-sizing: border-box;
+    font-family: assistant,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    
+    height: 80px;
+    width: 100%;
+    background-color:  #ffffff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+   
+}
+.myntra-home{
+    width: 53px;
+    height: 45px;
+    display: flex;
+
+}
+.logo{
+    margin-left: 4%;
+    margin-top: 10px;
+    mix-blend-mode: multiply;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.action-bar{
+    margin-right: 4%;
+}
+.nav-bar{
+    
+    min-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+    
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .3px;
+
+    text-transform: uppercase;
+    padding: 28px 0 ;
+    border-bottom: 5px solid #ffffff;
+}
+.nav-bar a:hover{
+  
+    border-bottom: 4px solid #ff3f6c;
+}
+sup{
+    color: red;
+    font-size: 10px;
+}
+.search{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    margin-top: 20px;
+    display: flex;  
+    align-items: center;
+
+    background-color: #f5f5f6;
+    border-radius: 5px;
+}
+.search-input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    width: 30%;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    padding: 10px;
+}
+.material-symbols-outlined{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    color: #696e79;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+
+}
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+.action-icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-contauiner{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+   
+   
+}
+
+.banner-image{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    padding: 40px;
+    
+    
+
+}
+.category{
+    width: 100%;
+    height: 50px;
+}
+
+.category-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
+}
+.category-image{
+    height: 200px;
+    
+}
+.sells{
+    width: 900px;
+    height: 61.95px;
+    margin-left: 200px;
+}
+.s-image{
+    height: 61.5px;
+    width: 700px;
+    padding: 0 20px;
+}
+.sells-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    align-items: center;
+}
+.sell-image{
+    height: 200px;
+}
+.footer-container{
+    width: 100%;
+    height: 1380px;
+    background-color: #f5f5f6;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-section{
+    width: 100%;
+    height: 200x;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
